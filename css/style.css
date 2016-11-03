@@ -1,0 +1,49 @@
+@charset "utf-8";
+*{padding:0; margin:0;}
+div{
+	display:block;
+	}
+.logo
+{
+   border:#000000 solid 1px;
+   height:100px;
+
+}
+.menu{
+	float:left;
+	height:100%; border:2px solid black;
+	width:15%;
+}
+li{
+	list-style:none;
+	padding:10px;
+	text-align:center;
+	font-size: x-large;
+}
+li:hover{
+	background-color:#4A4747;
+	color:#E3DDDD;
+	
+}
+
+.buttom ul a{
+	color:#000000;
+	text-decoration:none;
+		}
+
+.big{
+width:40%;
+display:block;
+	float:left;
+	border: solid green 1px;
+	margin:10px;
+	border-radius:10px;
+}
+.small{
+width:200px;
+display:block;
+float:right;
+	border: solid green 1px;
+	margin:5px;
+	border-radius:10px;
+}
