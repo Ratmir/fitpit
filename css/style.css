@@ -5,7 +5,9 @@
 -o-box-sizing: border-box;
 -ms-box-sizing: border-box;
 box-sizing: border-box;}
-body{background: #fe5335;}
+body{
+	background-color: #fe5335;
+	background-image: url(../img/background_img.png);}
 
 header{
 	width:15%;
@@ -45,7 +47,7 @@ header{
 		background-color:#a8d928;
 		color:#000;
 		border-left: 10px solid #fe5335;
-		border-right: 10px solid #fe5335
+		border-right: 10px solid #fe5335;
 	}
 
 /*Большое изображение*/
