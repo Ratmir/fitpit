@@ -1,0 +1,20 @@
+@charset "utf-8";
+.top_menu{
+	display: block;
+	float: right;
+	list-style:none;
+	padding:10px;
+	text-align:center;
+	font-size: x-large;
+}
+	.top_menu a{
+		/*color:#a8d928;*/
+		text-decoration:none;
+	}
+
+	.top_menu a li:hover{ /* При наведении */
+		background-color:#a8d928;
+		color:#000;
+		border-left: 10px solid #fe5335;
+		border-right: 10px solid #fe5335;
+	}

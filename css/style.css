@@ -13,11 +13,19 @@ header{
 	width:15%;
 	position: fixed;
 	float:left;
-	min-height:100%;
-	background-color: #3b414d;
+	min-height:80%;
+	/*background-color: #3b414d;*/
+	background-image: url("../img/podmenu.png");
 	border-left: 6px solid #fe5335;
 }
-
+.lenta{
+	background-image: url("../img/podmenu_lenta.png");
+	background-repeat: no-repeat;
+	width: 190px;
+	height: 135px;
+	float: right;
+	border: 1px red solid;
+}
 /*Логотип*/
 
 .logo
