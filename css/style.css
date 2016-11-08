@@ -7,7 +7,7 @@
 box-sizing: border-box;}
 body{
 	background-color: #fe5335;
-	background-image: url(../img/background_img.png);}
+	background-image: url("../img/background_img.png");}
 
 header{
 	width:15%;

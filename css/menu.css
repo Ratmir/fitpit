@@ -1,20 +1,73 @@
 @charset "utf-8";
-.top_menu{
-	display: block;
-	float: right;
-	list-style:none;
-	padding:10px;
-	text-align:center;
-	font-size: x-large;
+nav {
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: rgba(168, 217, 40, 0.8);
 }
-	.top_menu a{
-		/*color:#a8d928;*/
-		text-decoration:none;
-	}
+.top_menu ul {
+	margin: 0;
+	margin-right: 30%;
+	padding-left: 0;
+	list-style: none;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+}
+.top_menu ul a {
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+.top_menu li a {
+	color: black;
+	text-transform: uppercase;
+}
+.top_menu li {
+	display: inline-block;
+	margin-left: 25px;
+	transition: .5s linear;
+}
+.top_menu li a:after {
+	content: "";
+	width: 0;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	background: #fe5335;
+	transition: all 0.5s linear;  
+}
+.top_menu li a:hover:after{
+ 	width: 100%;
+}
 
-	.top_menu a li:hover{ /* При наведении */
-		background-color:#a8d928;
-		color:#000;
-		border-left: 10px solid #fe5335;
-		border-right: 10px solid #fe5335;
-	}
+@media screen and (max-width:574px) {
+.top_menu ul {
+    float: none;
+    margin: 0 25px;
+    }
+.top_menu li:first-of-type {margin-left:0}
+}
+
+@media screen and (max-width:493px) {
+nav {
+  overflow: visible
+}
+.top_menu ul {
+  height: auto;
+  margin: 25px 25px 0 25px;
+  line-height: 50px;
+}
+.top_menu li {
+  display: block;
+  margin: 0;
+}
+.top_menu li:hover {
+  background: rgba(0,0,0,.1)
+}
+.top_menu li a:after {
+  content: none;
+}
+}
