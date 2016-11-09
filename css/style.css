@@ -1,58 +1,100 @@
 @charset "utf-8";
-*{padding:0; margin:0;}
-div{
-	display:block;
+*{padding:0; margin:0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;}
+body{
+	background-color: #fe5335;
+	background-image: url("../img/background_img.png");}
+
+header{
+	width:15%;
+	position: fixed;
+	float:left;
+	min-height:80%;
+	border-left: 6px solid #fe5335;
+}
+	.bg_table{
+		background-image: url("../img/podmenu.png");
 	}
+/*Логотип*/
 .logo
 {
-   border:#000000 solid 1px;
    height:100px;
+   background-image: url("../img/logotype.png");
+}
 
+/*Меню*/
+.buttom{ /* Отцентровка блока меню */
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 80px;
 }
-.menu{
-	float:left;
-	height:100%; border:2px solid black;
-	width:15%;
-}
-li{
-	list-style:none;
-	padding:10px;
-	text-align:center;
-	font-size: x-large;
-}
-li:hover{
-	background-color:#4A4747;
-	color:#E3DDDD;
+	.buttom ul a li{
+		list-style:none;
+		padding:10px;
+		text-align:center;
+		font-size: x-large;
+	}
 	
+	.buttom ul a{
+		color:#a8d928;
+		text-decoration:none;
+	}
+
+	.buttom ul a li:hover{ /* При наведении */
+		background-color:#a8d928;
+		color:#000;
+		border-left: 10px solid #fe5335;
+		border-right: 10px solid #fe5335;
+	}
+/*Язычок под меню*/
+.lenta{
+	background-image: url("../img/podmenu_lenta.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 70px;
+}
+/*Большое изображение*/
+
+.img-container-big {
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    left:16%;
+    background-color: none;
 }
 
-.buttom ul a{
-	color:#000000;
-	text-decoration:none;
-		}
+	.img-container-big img {
+	    height: 100%;
+	    width: auto;
+	    max-width: 100%;
+	    border-radius: 20px;
+	}
 
-.big{
-width:40%;
-display:block;
-	float:left;
-	border: solid green 1px;
-	margin:10px;
-	border-radius:10px;
+/*Маленькое изображение*/
+
+.img-container-small {
+    background-size: cover;
+    width: 230px;
+    max-height: auto;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    margin: 20px;
+    background-color: none;
 }
-.small{
-width:200px;
-display:block;
-float:right;
-	border: solid green 1px;
-	margin:5px;
-	border-radius:10px;
-}/*____________________________________________Страница 2 Меню__________________________________________________*/
-.top_menu li{
-display:inline-block;
-}
-.top_menu{
-	margin:0 0 0 30%;
-	border:#F77F09 solid 2px;
-	background-color:#F77F09;
-	
+
+
+	.img-container-small img {
+	    width: auto;
+	    max-width: 100%;
+	    border-radius: 20px;
+
 	}
