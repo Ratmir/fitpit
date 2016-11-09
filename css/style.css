@@ -46,4 +46,13 @@ float:right;
 	border: solid green 1px;
 	margin:5px;
 	border-radius:10px;
+}/*____________________________________________Страница 2 Меню__________________________________________________*/
+.top_menu li{
+display:inline-block;
 }
+.top_menu{
+	margin:0 0 0 30%;
+	border:#F77F09 solid 2px;
+	background-color:#F77F09;
+	
+	}
