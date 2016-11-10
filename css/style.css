@@ -96,5 +96,12 @@ header{
 	    width: auto;
 	    max-width: 100%;
 	    border-radius: 20px;
-
 	}
+
+p{
+	display:table-cell;
+	width:700px;
+	height:200px;
+	vertical-align:middle;
+	text-align: right;
+}

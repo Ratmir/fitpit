@@ -21,6 +21,5 @@
     <div class="img-container-small">
       <img src="img/17.jpg"></div>
   </div>
-</script>
 </body>
 </html>

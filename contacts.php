@@ -8,6 +8,6 @@
 
 <body>
 <?php include('menu_left.php')?>
-
+  
 </body>
 </html>
