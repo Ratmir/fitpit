@@ -98,10 +98,27 @@ header{
 	    border-radius: 20px;
 	}
 
-p{
+.p{ /* aboutus */
 	display:table-cell;
 	width:700px;
 	height:200px;
 	vertical-align:middle;
 	text-align: right;
 }
+
+.blog_cont{
+	position: absolute;
+	left: 40%;
+	top: 10%;
+}
+	.tlt{
+		font-size: 5em;
+		width: auto;
+		height: auto;
+		border-right: 2px solid black;
+		padding-right: 10px;
+	}
+	.info{
+		padding: 10px;
+	}
+

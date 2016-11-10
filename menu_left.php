@@ -15,7 +15,7 @@
               <a  href="#">
                 <li>История</li>
               </a>
-              <a href="#">
+              <a href="contacts.php">
                 <li>Контакты</li>
               </a>
               <a href="#">
