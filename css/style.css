@@ -106,10 +106,32 @@ header{
 	text-align: right;
 }
 
-.blog_cont{
+.blog_adres{
 	position: absolute;
 	left: 40%;
-	top: 10%;
+	top: 5%;
+}
+
+.blog_telephone{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.blog_vk{
+	position: absolute;
+	left: 35%;
+	top: 40%;
+}
+
+.blog_instagram{
+	position: absolute;
+	left: 42%;
+	top: 60%;
+}
+@font-face{
+	font-family: AC line;
+	src: local(AC Line), url(../font/acline.ttf);
 }
 	.tlt{
 		font-size: 5em;
@@ -117,6 +139,8 @@ header{
 		height: auto;
 		border-right: 2px solid black;
 		padding-right: 10px;
+		font-family: AC line;
+		color: rgba(168, 217, 40, 0.8);
 	}
 	.info{
 		padding: 10px;

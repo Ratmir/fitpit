@@ -4,4 +4,9 @@ $(function () {
             effect: 'fadeInRight'
         }
     });
+    $(' .info ').textillate({
+        in: {
+            effect: 'fadeInLeft'
+        }
+    });
 })
