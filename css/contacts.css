@@ -1,0 +1,18 @@
+@charset "utf-8";
+.info{
+	display:block;
+	position:relative;
+	margin-top:5%;
+	margin-left:25%;}
+.name, .reiting, .date{
+	display:block;
+	float:left;}
+
+.name{
+	width:20%;
+}
+.reiting{
+	width:70%}
+.date{
+	width:10%;
+}
